@@ -13,27 +13,19 @@
     <table class="card-table">
         <thead>
             <tr>
+                <th>Lp</th>
                 <th>Kurs</th>
                 <th>Ilość</th>
                 <th>Cena</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="items"></tbody>
+        <tfoot>
             <tr>
-                <td>JS od podstaw</td>
-                <td>1</td>
-                <td>100</td>
+                <td colspan="3"><strong>Razem:</strong></td>
+                <td><strong id="total-price">0</strong></td>
             </tr>
-            <tr>
-                <td>PHP od podstaw</td>
-                <td>1</td>
-                <td>90</td>
-            </tr>
-            <tr>
-                <td colspan="2"><strong>Razem:</strong></td>
-                <td><strong>190</strong></td>
-            </tr>
-        </tbody>
+        </tfoot>
     </table>
     <script src="src/js/app.js"></script>
 </body>
