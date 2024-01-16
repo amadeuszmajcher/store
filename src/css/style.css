@@ -13,3 +13,14 @@ body {
 .card-table th {
   background-color: #ededed;
 }
+.discount {
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: rgb(21, 177, 125);
+  padding: 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+.hidden {
+  display: none;
+}
